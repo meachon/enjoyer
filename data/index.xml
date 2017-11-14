@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312"?>
+<aiml>
+  <category>
+    <pattern>你好</pattern>
+    <pattern>.*你好.*</pattern>
+	<template>你好！</template>
+  </category>
+
+  <category>
+    <pattern>.*</pattern>
+	<template>对不起，你说的太复杂，超出了我的理解范围，说简单点！</template>
+  </category>
+</aiml>
